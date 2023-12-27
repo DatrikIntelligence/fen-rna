@@ -1,0 +1,13 @@
+{
+    "name": "pronostia",
+    "package": "data.pronostia",
+    "generator": "Sequence",
+    "num_folds": 5,
+    "train_config": {
+        "batches_per_epoch": 1000
+    },
+    "val_config": {
+        "batches_per_epoch": 1000
+    }
+
+}

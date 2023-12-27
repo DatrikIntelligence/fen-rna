@@ -1,0 +1,19 @@
+{
+    "name": "pronostia_embeddings",
+    "package": "data.pronostia_embeddings",
+    "generator": "EmbeddingsGenerator",
+    "num_folds": 5,
+    "train_config": {
+        "batches_per_epoch": 1000,
+        "store_embeddings": "../results/embeddings/mscnn_pronostia/fold_{ifold}",
+        "embedding_model_path": "../results/nets/mscnn_pronostia/900c195954617834ff774c1b8e154ac81a87c707/net_mscnn_pronostia_fold_{ifold}.h5",
+        "embedding_layer": -4
+    },
+    "test_config": {
+        "batches_per_epoch": 1000,
+        "store_embeddings": "../results/embeddings/mscnn_pronostia/fold_{ifold}",
+        "embedding_model_path": "../results/nets/mscnn_pronostia/900c195954617834ff774c1b8e154ac81a87c707/net_mscnn_pronostia_fold_{ifold}.h5",
+        "embedding_layer": -4
+    }
+
+}

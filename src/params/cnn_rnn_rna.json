@@ -1,0 +1,36 @@
+{
+    "net": "rnn",
+    "fixed_params": {
+        "min_score": 0.15,
+        "net": "rnn",
+        "experiment": "cnn_rnn_rna",
+        "extra_channel": false,
+        "timeout": 10800,
+        "epochs": 100,
+        "debug": false,
+        "train_verbose": true
+    },
+    "opt_params": {
+        "bidirectional": [-0.51, 1.49],
+        "attention": [-0.51, 1.49],    
+        "cell_type": [-0.51, 1.49],
+        "batch_size": [32, 64],
+        "lstm_units": [16, 128],
+        "nblocks": [1.51, 4.49],
+        "l1": [0, 1e-3],
+        "l2": [0, 1e-3],
+        "dropout": [0, 0.9],
+        "lr": [1e-5, 1e-3],
+        "fc1": [64, 256],
+        "fc2": [64, 256],        
+        "window": [100, 500],
+        "dense_activation": [-0.51, 2.49],
+        "batch_normalization": [-0.5, 1.49],
+        "num_embeddings": [100, 300]
+        
+    },
+    "points_to_evaluate": [
+       
+    ]
+    
+}

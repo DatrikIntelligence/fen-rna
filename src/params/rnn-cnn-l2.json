@@ -1,0 +1,35 @@
+{
+    "net": "cnn",
+    "fixed_params": {
+        "min_score": 15,
+        "net": "cnn",
+        "experiment": "rnn_cnn_l2",
+        "extra_channel": true,
+        "timeout": 10800,
+        "epochs": 100,
+        "debug": false,
+        "train_verbose": true,
+        "kernel_size": 0,
+        "train_verbose": true
+
+    },
+    "opt_params": {
+        "batch_size": [32, 64],
+        "block_size": [1.51, 3.49],
+        "nblocks": [1.51, 3.49],
+        "l1": [0, 1e-3],
+        "l2": [0, 1e-3],
+        "dropout": [0, 0.9],
+        "lr": [1e-5, 1e-3],
+        "fc1": [64, 256],
+        "fc2": [64, 256],        
+        "conv_activation": [-0.51, 2.49],
+        "dense_activation": [-0.51, 2.49],
+        "dilation_rate": [0.51, 10.49],
+        "batch_normalization": [-0.5, 1.49]
+    },
+    "points_to_evaluate": [
+       
+    ]
+    
+}
