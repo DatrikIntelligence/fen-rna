@@ -1,0 +1,2 @@
+score,mean_epochs,std_score,nasa_score,mae,timestamp,done,training_iteration,trial_id,date,time_this_iter_s,time_total_s,pid,hostname,node_ip,time_since_restore,iterations_since_restore,checkpoint_dir_name
+999,999,999,999,999,1700155806,False,1,eaf80551,2023-11-16_18-30-06,0.05766916275024414,0.05766916275024414,5123,gpu22,150.214.140.128,0.05766916275024414,1,

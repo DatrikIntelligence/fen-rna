@@ -1,0 +1,51 @@
+{
+  "attention": 0.6402388067006088,
+  "batch_normalization": -0.2870061126143512,
+  "batch_size": 57.33557241135466,
+  "bidirectional": 0.918627603626057,
+  "cell_type": 1.1076094244168153,
+  "debug": false,
+  "dense_activation": 2.4872249223831444,
+  "dropout": 0.6801860949787232,
+  "epochs": 100,
+  "extra_channel": false,
+  "fc1": 194.82078368569023,
+  "fc2": 100,
+  "kernels": [
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      2,
+      10
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      1,
+      10
+    ]
+  ],
+  "l1": 0.0008878585847056871,
+  "l2": 0.0008603112358093515,
+  "lr": 0.0007751335954800536,
+  "lstm_units": 109.62902206017809,
+  "min_score": 15,
+  "nblocks": 4.2134207265616155,
+  "net": "rnn",
+  "timeout": 10800,
+  "train_verbose": true,
+  "window": 117.2231720658227,
+  "working_dir": "/home/dasolma/papers/rul_stacked/src"
+}
