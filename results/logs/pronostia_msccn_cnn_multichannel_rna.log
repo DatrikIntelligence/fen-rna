@@ -1,0 +1,5 @@
+INFO:root:Working dir: /home/dasolma/papers/fer-rna/src
+Traceback (most recent call last):
+  File "model_finder.py", line 27, in <module>
+    dataset_config = json.load(open(args.dataset, 'r'))
+FileNotFoundError: [Errno 2] No such file or directory: 'params/pronostia_mscnn_embeddings.json'
